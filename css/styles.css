@@ -79,6 +79,21 @@
     url("../fonts/roboto/roboto-v20-latin_cyrillic-900.svg#Roboto") format("svg");
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --logo-web: #2196f3;
   --background-color: #f5f4fa;
@@ -103,6 +118,14 @@ header * {
   font-weight: 500;
   letter-spacing: 0.02em;
   display: inline-block;
+}
+
+.header-div {
+  border: 2px solid tomato;
+  width: 1600px;
+  height: 80px;
+  align-items: center;
+  display: flex;
 }
 
 footer * {
@@ -281,19 +304,17 @@ header ul a:focus {
   padding: 0;
 }
 
-.footer .mail {
-  font-style: normal;
-  line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer .tel {
+.footer .mailtel {
   font-style: normal;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 
 /* Porfolio Page */
+
+.port-nav {
+  display: flex;
+}
 
 .port-nav li {
   text-decoration: none;
