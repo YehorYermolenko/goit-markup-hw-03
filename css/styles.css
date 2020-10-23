@@ -88,6 +88,7 @@ img {
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
@@ -121,16 +122,10 @@ header * {
   display: inline-block;
 }
 
-.header-div {
-  border: 2px solid tomato;
-  width: 1600px;
-  height: 80px;
-  align-items: center;
-  display: flex;
-}
-
 footer * {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 header ul a:hover,
@@ -138,8 +133,28 @@ header ul a:focus {
   color: var(--logo-web);
 }
 
-.site-nav li {
-  padding-right: 50px;
+.page-header {
+  width: 1600px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1170px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.site-nav > .item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .site-nav {
@@ -151,13 +166,12 @@ header ul a:focus {
 }
 
 .mailtel-nav {
-  padding-left: 281px;
   color: var(--text);
 }
 
-.mailtel-nav .tel {
+/* .mailtel-nav .tel {
   padding-left: 50px;
-}
+} */
 
 .logo-web {
   font-family: Raleway;
@@ -170,7 +184,7 @@ header ul a:focus {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: var(--logo-header);
 }
 
@@ -239,6 +253,10 @@ header ul a:focus {
 
 /* What we do */
 
+.about-us {
+  width: 1600px;
+}
+
 .about-us .title {
   font-weight: 700;
   font-size: 36px;
@@ -248,6 +266,10 @@ header ul a:focus {
 }
 
 /* Our team */
+
+.our-team {
+  width: 1600px;
+}
 
 .our-team .title {
   font-style: normal;
