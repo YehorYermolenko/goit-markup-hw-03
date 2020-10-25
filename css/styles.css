@@ -143,21 +143,20 @@ header ul a:focus {
 }
 
 .page-header {
-  width: 1600px;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+  margin-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
 }
 
 .section {
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 1600px;
 }
 
 .container {
-  width: 1600px;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -168,16 +167,12 @@ header ul a:focus {
   margin: 0;
 }
 
+ul {
+  padding-inline-start: 0;
+}
+
 .header-container {
-  width: 1170px;
-  height: 80px;
   display: block;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .site-nav > .item:not(:last-child) {
@@ -185,7 +180,7 @@ header ul a:focus {
 }
 
 .site-nav {
-  padding-left: 93px;
+  margin-left: 93px;
 }
 
 .site-nav a {
@@ -194,6 +189,7 @@ header ul a:focus {
 
 .mailtel-nav {
   color: var(--text);
+  margin-left: auto;
 }
 
 .mailtel-nav .tel {
