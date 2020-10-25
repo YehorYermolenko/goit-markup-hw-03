@@ -152,12 +152,12 @@ header ul a:focus {
 .section {
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -265,32 +265,37 @@ ul {
 
 /* Feature list section */
 
-.feature-list {
-  display: flex;
-  flex-wrap: wrap;
-  width: auto;
-}
-
-.feature-item {
-  box-sizing: border-box;
+.feature-section {
   margin-top: 94px;
   margin-bottom: 94px;
 }
 
-/* .feature-item:first-child {
-  margin-left: 215px;
+.feature-list {
+  display: flex;
+  width: auto;
 }
 
-.feature-item:last-child {
-  margin-right: 215px;
+.feature-item {
+  width: calc((100% - 90px) / 4);
+}
+
+.feature-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+element .feature-item {
+  width: 270px;
+}
+
+.feature-item {
+  box-sizing: border-box;
 }
 
 .feature-item:not(:first-child) {
   margin-left: 30px;
-} */
+}
 
 .feature-item-title {
-  width: 270px;
   margin-bottom: 10px;
   font-weight: 700;
   text-transform: uppercase;
@@ -298,7 +303,6 @@ ul {
 }
 
 .feature-item-text {
-  width: 270px;
   line-height: 1.71;
   color: var(--text);
 }
@@ -308,7 +312,8 @@ ul {
 .section .about-us-title {
   font-weight: 700;
   font-size: 36px;
-  padding-bottom: 50px;
+  margin: 0;
+  margin-bottom: 50px;
   line-height: 1.17;
   text-align: center;
   color: var(--title);
@@ -316,9 +321,11 @@ ul {
 
 .what-we-do {
   padding-bottom: 94px;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+}
+
+.what-we-do-list {
+  display: flex;
 }
 
 .what-we-do-img:not(:first-child) {
@@ -381,11 +388,9 @@ ul {
 }
 
 .footer {
-  /* width: 1600px;
-  height: 192px; */
   background-color: #2f303a;
-  padding-left: 215px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .adress {
