@@ -175,6 +175,17 @@ ul {
   display: block;
 }
 
+.header-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  margin-left: 93px;
+  align-items: center;
+}
+
 .site-nav > .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -203,6 +214,7 @@ ul {
   line-height: 1.2;
   color: var(--logo-web);
 }
+
 .logo {
   font-family: Raleway;
   font-weight: bold;
@@ -215,16 +227,13 @@ ul {
 
 .hero-section {
   background-color: #2f303a;
-  position: center;
-  height: 600px;
-  padding: 200px 452px 280px 452px;
+  text-align: center;
 }
 
 .hero-text {
   background-color: #2f303a;
   width: 700px;
-  height: 120px;
-  display: flex;
+  padding-bottom: 94px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -236,7 +245,6 @@ ul {
 
 .hero-button {
   margin-top: 30px;
-  margin-left: 250px;
   border-radius: 4px;
   width: 200px;
   height: 50px;
@@ -245,12 +253,10 @@ ul {
 }
 
 .hero-buttext {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   color: var(--white);
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -372,8 +378,8 @@ ul {
 }
 
 .footer {
-  width: 1600px;
-  height: 192px;
+  /* width: 1600px;
+  height: 192px; */
   background-color: #2f303a;
   padding-left: 215px;
   padding-top: 60px;
