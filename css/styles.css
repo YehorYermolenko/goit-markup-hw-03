@@ -152,12 +152,12 @@ header ul a:focus {
 .section {
   padding-top: 0px;
   padding-bottom: 0px;
-  /* margin-left: auto;
-  margin-right: auto; */
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -231,6 +231,8 @@ ul {
 .hero-section {
   background-color: var(--hero-bckgr);
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .hero-text {
@@ -264,11 +266,6 @@ ul {
 }
 
 /* Feature list section */
-
-.feature-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
 
 .feature-list {
   display: flex;
@@ -320,7 +317,6 @@ element .feature-item {
 }
 
 .what-we-do {
-  padding-bottom: 94px;
   justify-content: center;
 }
 
@@ -337,7 +333,6 @@ element .feature-item {
 .team-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
 }
 
 .team-list-people:not(:first-child) {
@@ -346,6 +341,7 @@ element .feature-item {
 
 .team-list-people {
   text-align: center;
+  width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
