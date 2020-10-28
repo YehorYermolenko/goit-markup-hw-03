@@ -191,10 +191,6 @@ ul {
   margin-right: 50px;
 }
 
-.site-nav {
-  margin-left: 93px;
-}
-
 .site-nav a {
   color: var(--logo-header);
 }
@@ -286,10 +282,8 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title);
-  padding-top: 20px;
   padding-bottom: 4px;
   margin: 0px auto;
-  padding-left: 24px;
 }
 
 .examples-item .type {
@@ -297,7 +291,10 @@ ul {
   line-height: 1.87;
   color: var(--text);
   letter-spacing: 0.03em;
-  padding-left: 24px;
+}
+
+.examples-item-descr {
+  padding: 20px 24px;
 }
 
 .examples {
