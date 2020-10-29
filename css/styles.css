@@ -320,9 +320,9 @@ element .feature-item {
   padding-top: 47px;
 }
 
-.what-we-do {
+/* .what-we-do {
   justify-content: center;
-}
+} */
 
 .what-we-do-list {
   display: flex;
