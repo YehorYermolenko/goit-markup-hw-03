@@ -316,13 +316,9 @@ element .feature-item {
   color: var(--title);
 }
 
-.what-we-do-main {
+.what-we-do {
   padding-top: 47px;
 }
-
-/* .what-we-do {
-  justify-content: center;
-} */
 
 .what-we-do-list {
   display: flex;
