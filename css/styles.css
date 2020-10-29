@@ -306,10 +306,6 @@ element .feature-item {
 
 /* What we do */
 
-.what-we-do {
-  padding-top: 47px;
-}
-
 .section .about-us-title {
   font-weight: 700;
   font-size: 36px;
@@ -318,6 +314,10 @@ element .feature-item {
   line-height: 1.17;
   text-align: center;
   color: var(--title);
+}
+
+.what-we-do-main {
+  padding-top: 47px;
 }
 
 .what-we-do {
